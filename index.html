@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <link type='text/css' rel='stylesheet' href='index.css'>
+        <script src='index.js'></script>
+    </head>
+    <body>
+        <header>
+            <img src='8ball.png' class='eightball'>
+            <div class='title'>
+                <h1>Magic 8 Ball</h1>
+                <h4>By manblue7</h4>
+            </div>
+        </header>
+        <main>
+            <h3 id='welcome'>Welcome to the magical, mysterious 8 ball!</h3>
+            <h4 id='guide'>Ask any yes or no question of your choosing, but be careful, some things are better left unknown...</h4>
+            <div class='program'>
+                <p id='text'> Simply enter a question, or feel free to keep it a secret by entering no text, and click ask</p>
+                <input id='input'> 
+                <button onclick="changeContent()" id='askButton'>Ask</button>
+                <button class='reset' onclick="reset()" id='resetButton'>Ask</button>
+                <div id='spin'></div>
+            </div>
+        </main>
+    </body>
+    
+    
+</html>

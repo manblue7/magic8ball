@@ -1,0 +1,43 @@
+body {
+    background-color: #6002EE;
+    color:#ee6002;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header {
+    display: inline-flex;
+}
+
+.eightball {
+    border-radius: 100%;
+    box-shadow: black 10px 10px 10px;
+    width: 130px;
+    margin-right: 40px;
+}
+
+main {
+    text-align: center;
+}
+header .title h1 {
+    margin-bottom: 0;
+}
+
+header .title h4 {
+    margin-top: 0;
+    color:#0091EA
+}
+
+button {
+    margin: auto
+}
+
+.program button {
+    margin-left: 20px;
+    height: 40px;
+    width: 90px;
+    background-color:#0091EA
+}
+.program .reset {
+    display: none;
+}
